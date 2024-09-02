@@ -2,7 +2,7 @@
 
 <!-- [Konstantin A. Maslov](https://people.utwente.nl/k.a.maslov) -->
 
-[[`Installation`](#installation)] [[`Getting started`](#getting_started)] [[`BibTeX`](#citing)] 
+[[`Installation`](#installation)] [[`Getting started`](#getting%20started)] [[`BibTeX`](#citing)] 
 
 <br/>
 
