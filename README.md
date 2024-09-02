@@ -2,7 +2,7 @@
 
 <!-- [Konstantin A. Maslov](https://people.utwente.nl/k.a.maslov) -->
 
-[[`Datasets`](#datasets)] [[`BibTeX`](#citing)] 
+[[`Installation`](#installation)] [[`Getting started`](#getting_started)] [[`BibTeX`](#citing)] 
 
 <br/>
 
