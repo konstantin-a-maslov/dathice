@@ -8,23 +8,17 @@
 
 > This repository is in progress.
 
-Abstract.
-
-## Brief description
-
-Desc.
-
-For details, please refer to ... .
-
-## Datasets
+Brief description.
 
 ## Installation
 
 ## Getting started
 
+[link to the raster data](https://bit.ly/4gce19k)
+
 ## Acknowledgements
 
-We acknowledge the contributions of our peers and instructors, particularly [Prof. Andrew Hodson](https://www.unis.no/staff/andy-hodson/) and [Erik Schytt Mannerfelt](https://www.mn.uio.no/geo/english/people/aca/geohyd/erikmann/), from the [AG-325/825 course at the University Centre in Svalbard (UNIS)](https://www.unis.no/courses/ag-825-glaciology/) in the collection and interpretation of the low-frequency GPR data for ice thickness mapping in February 2024. 
+I acknowledge the contributions of my peers and instructors, particularly [Prof. Andrew Hodson](https://www.unis.no/staff/andy-hodson/) and [Erik Schytt Mannerfelt](https://www.mn.uio.no/geo/english/people/aca/geohyd/erikmann/), from the [AG-325/825 course at the University Centre in Svalbard (UNIS)](https://www.unis.no/courses/ag-825-glaciology/) in the collection and interpretation of the low-frequency GPR data for ice thickness mapping in February 2024. 
 Their assistance was essential for this project. 
 
 ## License
@@ -44,4 +38,4 @@ This software is licensed under the [GNU General Public License v2](LICENSE).
 
 <br/>
 
-> If you notice any inaccuracies, mistakes or errors, feel free to submit a pull request or kindly email the authors.
+> If you notice any inaccuracies, mistakes or errors, feel free to submit a pull request or kindly email the author.
