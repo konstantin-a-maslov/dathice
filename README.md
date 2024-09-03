@@ -11,7 +11,7 @@
 This short exercise demonstrates a simple hybrid-physics-data model (inspired by [Daw et al. 2017](https://arxiv.org/abs/1710.11431)) that is trained to correct the modelled data from [Millan et al. 2022](https://www.nature.com/articles/s41561-021-00885-z). 
 It adapts and improves upon traditional physical models by incorporating ground-penetrating radar data to correct inaccuracies. 
 This method involves training a deep learning model to adjust the ice thickness measurements based on discrepancies identified between the physically modeled data and GPR observations from three distinct glaciers in Svalbard&mdash;Scott Turnerbreen, Drønbreen and Jinnbreen. 
-The correction relies and two coregistered elevation models (Cop30DEM and ArcticDEM) as well as the inputs for physical modelling (remotely sensed glacier surface velocities). 
+The correction relies and two coregistered elevation models (Cop30DEM and ArcticDEM) as well as the inputs for physical modelling (remotely sensed glacier surface velocities) and the modelled thickness itself. 
 The improved predictions offer a \[slightly\] more accurate assessment of ice thickness and glacier volumes (up to ~30%).
 
 This repository is used mainly as a teaching resource and does not claim to have high scientific value. 
@@ -31,7 +31,14 @@ As this exercise is really simple and do not require a lot of computational reso
 
 ## Getting started
 
-[link to the raster data](https://bit.ly/4gce19k)
+To start, download [the raster data](https://bit.ly/4gce19k) data and put them into `data/raster/`.
+The whole workflow consists of three Jupyter notebooks which are supposed to be run one-by-one:
+1. [`data_preparation.ipynb`](data_preparation.ipynb)
+2. [`modelling.ipynb`](modelling.ipynb)
+3. [`testing.ipynb`](testing.ipynb)
+Note, however, that the repository also contains all intermediate results, so you are free to skip any of the notebooks.
+
+Some notebooks contain 'tasks' marked with `""" EXERCISE: ... """`, which I encourage to do. 
 
 ## Acknowledgements
 
