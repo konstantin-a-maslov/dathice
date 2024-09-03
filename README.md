@@ -6,11 +6,19 @@
 
 <br/>
 
-This short exercise ...
+![Correction of the Millan et al. 2022 data with DATHICE](assets/plot.png)
+
+This short exercise demonstrates a simple hybrid-physics-data model (inspired by [Daw et al. 2017](https://arxiv.org/abs/1710.11431)) that is trained to correct the modelled data from [Millan et al. 2022](https://www.nature.com/articles/s41561-021-00885-z). 
+It adapts and improves upon traditional physical models by incorporating ground-penetrating radar data to correct inaccuracies. 
+This method involves training a deep learning model to adjust the ice thickness measurements based on discrepancies identified between the physically modeled data and GPR observations from three distinct glaciers in Svalbard&mdash;Scott Turnerbreen, Drønbreen and Jinnbreen. 
+The correction relies and two coregistered elevation models (Cop30DEM and ArcticDEM) as well as the inputs for physical modelling (remotely sensed glacier surface velocities). 
+The improved predictions offer a \[slightly\] more accurate assessment of ice thickness and glacier volumes (up to ~30%).
+
+This repository is used mainly as a teaching resource and does not claim to have high scientific value. 
 
 ## Installation
 
-\[*NOT RECOMMENDED*\] The repository provides the `env.yml` file, which can be used to reproduce the environment with, e.g., `conda` by running
+\[**NOT RECOMMENDED**\] The repository provides the `env.yml` file, which can be used to reproduce the environment with, e.g., `conda` by running
 ```
 conda env create -f env.yml
 ```
