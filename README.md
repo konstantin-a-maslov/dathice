@@ -36,6 +36,7 @@ The whole workflow consists of three Jupyter notebooks which are supposed to be 
 1. [`data_preparation.ipynb`](data_preparation.ipynb)
 2. [`modelling.ipynb`](modelling.ipynb)
 3. [`testing.ipynb`](testing.ipynb)
+
 Note, however, that the repository also contains all intermediate results, so you are free to skip any of the notebooks.
 
 Some notebooks contain 'tasks' marked with `""" EXERCISE: ... """`, which I encourage to do. 
