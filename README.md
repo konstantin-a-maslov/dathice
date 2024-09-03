@@ -6,11 +6,20 @@
 
 <br/>
 
-> This repository is in progress.
-
-Brief description.
+This short exercise ...
 
 ## Installation
+
+\[*NOT RECOMMENDED*\] The repository provides the `env.yml` file, which can be used to reproduce the environment with, e.g., `conda` by running
+```
+conda env create -f env.yml
+```
+
+However, this is likely to fail as the installation process of JAX might be complicated in some configurations.
+I highly recommend to install JAX as explained [here](https://jax.readthedocs.io/en/latest/installation.html) and install manually other dependencies: `optax`, `rioxarray`, `geopandas`, `pandas`, `matplotlib`, `jupyterlab` and (optionally) `tqdm`. 
+It might take some time to figure out which versions of the packages work best for you. 
+
+As this exercise is really simple and do not require a lot of computational resources, it is also a good idea to install a CPU version of JAX, which is usually much easier to deal with.
 
 ## Getting started
 
@@ -35,7 +44,3 @@ This software is licensed under the [GNU General Public License v2](LICENSE).
     year   = {2024},
 }
 ``` 
-
-<br/>
-
-> If you notice any inaccuracies, mistakes or errors, feel free to submit a pull request or kindly email the author.
