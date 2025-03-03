@@ -14,7 +14,7 @@ This method involves training a deep learning model to adjust the ice thickness 
 The correction relies and two coregistered elevation models (Cop30DEM and ArcticDEM) as well as the inputs for physical modelling (remotely sensed glacier surface velocities) and the modelled thickness itself. 
 The improved predictions offer a \[slightly\] more accurate assessment of ice thickness and glacier volumes (up to ~30%).
 
-This repository is used mainly as a teaching resource and does not claim to have high scientific value. 
+This repository is used mainly as a teaching resource. 
 
 ## Installation
 
